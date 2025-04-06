@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Large blue hexagon -->
+  <path d="M300 70 L355 100 L355 160 L300 190 L245 160 L245 100 Z" fill="none" stroke="#1a3f77" stroke-width="3"/>
+  
+  <!-- Small red hexagon -->
+  <path d="M180 220 L205 235 L205 265 L180 280 L155 265 L155 235 Z" fill="none" stroke="#e6375a" stroke-width="2"/>
+  
+  <!-- Medium orange hexagon -->
+  <path d="M370 210 L405 230 L405 270 L370 290 L335 270 L335 230 Z" fill="none" stroke="#f39c35" stroke-width="2"/>
+  
+  <!-- Small light green hexagon -->
+  <path d="M235 270 L260 285 L260 315 L235 330 L210 315 L210 285 Z" fill="none" stroke="#b0c43c" stroke-width="2"/>
+  
+  <!-- Tiny gray hexagon -->
+  <path d="M425 105 L440 115 L440 135 L425 145 L410 135 L410 115 Z" fill="none" stroke="#6d6e71" stroke-width="1.5"/>
+</svg>

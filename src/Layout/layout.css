@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Kanit:wght@400;500;600;700;800&family=Montserrat+Subrayada&family=Nunito:wght@300;500;600;700;800&family=Poppins:wght@300;500;600;700;800&family=Prosto+One&family=Righteous&family=Roboto:wght@500;700;900&display=swap');
+
+
+.Layout {
+    background-color: var(--bg-color);
+    /* height: 200px; */
+    /* border: 2px solid red; */
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 14px 20px 14px 100px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.4);
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 2px;
+}
+
+.menu div {
+    width: 24px;
+    height: 2px;
+    /* margin-bottom: 4px; */
+    background-color: var(--primary);
+
+}
+
+.search-bar {
+    width: 700px;
+}
+
+.profile-box {
+    position: relative;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    /* width: 40px; */
+    /* height: 40px;  */
+    /* display: flex; */
+    /* overflow: hidden; */
+    cursor: pointer;
+    justify-content: center;
+    /* align-content: center; */
+
+}
+
+.profile-box img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.profile-box-popup {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 220px;
+    padding: 0 0;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.4);
+    z-index: 6;
+    font-size: 10px;
+    font-family: var(--secondary-font);
+    border-radius: 6px 6px 0 0;
+    font-weight: 600;
+}
+
+.profile-box-popup .div-1 {
+    display: flex;
+    align-items: center;
+    padding: 17px 10px;
+    /* background: linear-gradient(to right, #7f79b0 , #87CEEB, #4590d1);  */
+    background: linear-gradient(to right, #7f79b0, #4590d1); 
+    color: white;
+    border-radius: 6px 6px 0 0;
+    gap: 5px;
+
+}
+
+.profile-box-popup .div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+}
+
+.profile-box-popup .div-2 button {
+   border: none;
+   background: none;
+   font-size: 10px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.Sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 2px solid red; */
+    width: 70px;
+    height: 100vh;
+    /* padding: 14px 20px 14px 100px; */
+    background-color: #05418d;
+    z-index: 4;
+    padding: 40px 0;
+}
+
+.Sidebar .switch {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 8px;
+    gap: 2px;
+    padding: 5px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Sidebar .switch:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.switch img {
+    width: 30px;
+}
+
+.side {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 30px;
+    gap: 2px;
+    padding: 9px 0;
+    margin: 10px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.side:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 14px 20px 14px 100px;
+    background-color: white;
+}
+
+.Footer p {
+    font-family: var(--primary-font);
+    color: grey;
+    font-size: 13px;
+}

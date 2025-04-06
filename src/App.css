@@ -1,0 +1,46 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* --primary: #f86a03; */
+  --primary: #034679;
+  --secondary: #ff8200;
+  /* --our-font: 'Inter', sans-serif; */
+  --bg-color: #eff2f5;
+    --my-black: #1b1c1e;
+    --button-font: 'Righteous', cursive;
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+    --other-font: "Roboto", sans-serif;
+     
+
+
+  --h1-font: clamp(28px, 3.5vw, 40px);
+  --h1-line: clamp(32px, 3.8vw, 42px);
+
+  --h2-font: clamp(24px, 3vw, 40px);
+  --h2-line: clamp(28px, 3.8vw, 42px);
+  
+  --h3-font: clamp(16px, 2.3vw, 26px);
+  --h3-line: clamp(24px, 3.4vw, 35px);
+  
+  --h4-font: ;
+  --h4-line: ;
+  
+  --p-font: clamp(14px,2vw,28px);
+  --p-line: clamp(20px,3vw,36px);
+  
+  --card-h-font: clamp(16px,2vw,24px);
+  --card-h-line: clamp(22px,2.5vw,30px);
+
+  --card-p-font: clamp(14px,1.2vw,20px);
+  --card-p-line: clamp(26px,2.5vw,26px);
+  
+  --button-font: ;
+}
+
+.App {
+ 
+}
